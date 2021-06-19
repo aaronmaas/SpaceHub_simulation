@@ -1,7 +1,7 @@
 # SpaceHub_simulation
 Hot Jupiter Formation in dense star cluster
 
-This is only one simulation example of the N-body code SpaceHub to perfrom planet system scattering, https://github.com/YihanWangAstro/SpaceHub. The simulation was shown in the presentation MvSem Dynamics topic "Hot Jupiter Formation in dense star clusters". 
+This is only one simulation example of the N-body code SpaceHub to perfrom planet system scattering, https://github.com/YihanWangAstro/SpaceHub. The simulation was shown in the presentation MvSem Dynamics of the paper "Hot Jupiter Formation in dense star clusters", https://arxiv.org/abs/2011.01236.  
 
 Params used: 
 - angles isotherm
@@ -11,5 +11,4 @@ Params used:
 - start distance r = 350 AU (between interloper and planet system)
 - $v_\infty = 3.6 km/s $
 
-
-
+The repositry contains only the data simulated fot the above mentioned simulation and a jupyter notebook with simple visualization code. Visualization is done by ipyvolume, you will need to install the package via pip. (There have been problems with ipyvolume and several browser for animations, I used Mozilla Firefox 89.0 without any trouble.  
